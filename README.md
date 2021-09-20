@@ -18,5 +18,5 @@ pip install fastapi
 
 ```bash
 pip install uvicorn
-uvicorn main:app --reload
+uvicorn main:app --reload // main:app => main.py:(->[app = FastAPI()])
 ```
